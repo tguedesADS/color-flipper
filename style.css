@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: "Saira Condensed", sans-serif;
+}
+
+.nav_all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+#logo_dev {
+    height: 14vh;
+    padding-right: 15px;
+}
+
+.nav_all h1 {
+    color: rgb(80, 187, 236);
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.nav_links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 17px;
+    padding-right: 5px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    gap: 40px;
+}
+
+.box {
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+
+.bnt_here {
+    padding: 4px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+    font-family: "Saira Condensed", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    outline: none;
+    text-align: center;
+    transition: ease-in 0.1s;
+}
+
+.bnt_here:active {
+    transform: translateY(4px);
+}
